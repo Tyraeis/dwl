@@ -53,6 +53,11 @@
 #include <wlr/xwayland.h>
 #endif
 
+// Fix VSCode error
+#ifndef VERSION
+#define VERSION
+#endif
+
 #include "util.h"
 
 /* macros */
